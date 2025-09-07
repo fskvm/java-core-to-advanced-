@@ -1,9 +1,7 @@
 package L1_Basic_in_out;
 
-import java.sql.SQLOutput;
-
 public class L8CommandOtherThanSring {
-    //* Command Line Arguments : Other than string type example such as integer, float, double, etc.
+    //* Command Line Arguments: Other than string type example such as integer, float, double, etc. while passing arguments to a program we use either inside quotes or without quotes.
     public static void main(String[] args) {
         if(args.length < 3) {
             System.out.println("Please provide 3 arguments : an integer, a float, and a double.");
@@ -21,7 +19,7 @@ public class L8CommandOtherThanSring {
             int sum = a + (int)b + (int)c;
             System.out.println("Sum of all arguments (cast to int): " + sum);
         } catch (NumberFormatException e) {
-            System.out.println("Please provide valid arguments."); //? if any argument is string type cause to exception
+            System.out.println("Please provide valid arguments." + e); //? if any argument is a string type cause an exception
         }
 
     }
