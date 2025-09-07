@@ -42,9 +42,9 @@ public class L6Output {
         //         Format Specifiers - These are used to format the output in a specific way.They begin with a percent character (%) and
         //                              end with a type character that indicates the type of data.
         // 3.0. %n - New Line
-        System.out.printf("1 \n2 \n3 \n4 \n5 \n");
+        System.out.printf("1 %n2 %n3 %n4 %n5 %n");
         // 3.1. %d - Decimal integer
-        System.out.printf("The value of x is %d, and the value of y is %d.\n", x, y);
+        System.out.printf("The value of x is %d, and the value of y is %d.%n", x, y);
 
         // 3.2. %f - Decimal floating-point
         float num1 = 6.6666666666666666f;
