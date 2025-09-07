@@ -4,35 +4,35 @@ public class L4TypesOfDatatype {
     public static void main(String[] args) {
 
         // 1) Primitive data types
-        // byte
+        // byte - 1 byte
         byte varByte = 127;
         System.out.println("Byte: " + varByte);
 
-        // short
+        // short - 2 bytes
         short varShort = 32767;
         System.out.println("Short: " + varShort);
 
-        // int
+        // int - 4 bytes
         int varInt = 2147483647;
         System.out.println("Int: " + varInt);
 
-        // long
+        // long - 8 bytes
         long varLong = 9223372036854775807L;
         System.out.println("Long: " + varLong);
 
-        // float
+        // float - 4 bytes
         float varFloat = 3.4028235E38f;
         System.out.println("Float: " + varFloat);
 
-        // double
+        // double - 8 bytes
         double varDouble = 1.7976931348623157E308;
         System.out.println("Double: " + varDouble);
 
-        // char
+        // char - 2 bytes
         char varChar = 'A';
         System.out.println("Char: " + varChar);
 
-        // boolean
+        // boolean - 1 byte but it uses only 1 bit of memory.
         boolean varBoolean = true;
         System.out.println("Boolean: " + varBoolean);
 

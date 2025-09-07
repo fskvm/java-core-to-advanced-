@@ -24,7 +24,7 @@ public class L2TypesOfDeclarationOfVar {
         var8 = 30;
         System.out.println(var6 + var7 + var8);
 
-        // 4) We can declare and assign a value to each variable in a single line of same type.
+        // 4) We can declare and assign a value to each variable in a single line of the same type.
         int var9 = 10, var10 = 20, var11 = 30;
         System.out.println(var9 + var10 + var11);
     }
