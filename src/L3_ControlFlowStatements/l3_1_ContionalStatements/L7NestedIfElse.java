@@ -38,7 +38,7 @@ public class L7NestedIfElse {
             System.out.println(num3 + " is the largest among three.");
         }
 
-        //todo_ WAP to p\display the days of week using switch case
+        //todo_ WAP to display the days of week using switch case
         System.out.println("Enter the day of week(in number form 1-7): ");
         int day = sc.nextInt();
         switch (day) {

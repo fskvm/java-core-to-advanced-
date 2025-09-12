@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class L8Ques {
     public static void main(String[] args) {
 
-        // WAP to enter a month of year 2024 and display the number of days in that month(considering leap year and using switch case)
+        // WAP to enter a month of the year 2024 and display the number of days in that month (considering leap year and using a switch case)
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the month number: ");

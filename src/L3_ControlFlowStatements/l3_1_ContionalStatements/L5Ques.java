@@ -17,7 +17,7 @@ public class L5Ques {
         }
 
         //! or Using ASCII(American Standard Code for Information Interchange) values
-        //? A-Z: 65-90 and a-z: 97-122 in between 91-96 are special characters namely [ \ ] ^ _ `
+        //? A-Z: 65-90 and a-z: 97-122 in between 91-96 are special characters, namely [ \ ] ^ _ `
 
         // if (ch >= 65 && ch <= 90) {
         //     System.out.println("The character is Uppercase");
@@ -27,7 +27,7 @@ public class L5Ques {
         //     System.out.println("The character is not an alphabet");
         // }
         sc.close();
-        //! before checking of char , it first convert the char to ASCII value
-        //! that is known as Implicit Type Conversion then it checks the numerical value
+        //! before checking of char, it first converts the char to ASCII value
+        //! that is known as Implicit Type Conversion, then it checks the numerical value
     }
 }

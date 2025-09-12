@@ -2,7 +2,7 @@ package L2_Declarations.l2_3_Extra;
 
 public class OverUnderFlow {
     public static void main(String[] args) {
-        // Overflow and Underflow works for only for the datatypes that are namely byte, short, int, long
+        //! Overflow and Underflow works for only for the datatypes that are namely byte, short, int, long
         int max = Integer.MAX_VALUE;
         int min = Integer.MIN_VALUE;
         System.out.println("Max: " + max);
@@ -49,7 +49,7 @@ public class OverUnderFlow {
 
         // For float and double, the result will be Infinity or 0.0
         float largeFloat = Float.MAX_VALUE;
-        float result = largeFloat * 2;  // Result will be Infinity
+        float result = largeFloat * 2;  // The result will be Infinity
         float smallFloat = Float.MIN_VALUE;
         float result2 = smallFloat / 2;  // Result might be 0.0
         System.out.println("Result: " + result);

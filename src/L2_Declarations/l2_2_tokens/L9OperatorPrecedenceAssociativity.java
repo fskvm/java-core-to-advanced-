@@ -54,12 +54,12 @@ int result5 = 19;
                 int result6 = a + (b - c);  // Parentheses change the associativity
                 System.out.println("Result 6 (a + (b - c)): " + result6);  // Output: 21
 
-                // same precedence of post increment and post decrement in one expression
+                // same precedence of post-increment and post-decrement in one expression
         int d = 4 , e = -5;
                 int result7 = d++ - e-- + c;
                 System.out.println("Result 7 (d++ + e-- + c): " + result7);
 
-                // same precedence of pre increment and pre decrement in one expression
+                // same precedence of pre-increment and pre-decrement in one expression
         int f = 4 , g = -5;
                 int result8 = ++f - --g + c;
                 System.out.println("Result 8 (++f + --g + c): " + result8);

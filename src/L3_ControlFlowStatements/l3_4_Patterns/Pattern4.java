@@ -16,7 +16,7 @@ public class Pattern4 {
         //?                     for(int j = 0; j <= i; j++)
 
         //*            for inverted Right angle triangle
-        //?                 for(int i = n; i > n; i--)              BEST
+        //?                 for(int i = n; i > 0; i--)              BEST
         //?                      for(int j = 0; j < i; j++)
         /*
              *

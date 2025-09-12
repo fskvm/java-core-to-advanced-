@@ -11,18 +11,19 @@ public class L8StringConcatenation {
         int myIntValue = 50 , mySecondIntValue = 100 , myThirdIntValue = 150 , myFourthIntValue = 200;
         String StringValue = " <-- before calculated value AND after concatenation happens --> ";
         System.out.println(myIntValue + mySecondIntValue + StringValue +myThirdIntValue + myFourthIntValue);
-        //? System.out.println("this is result : " + myIntValue + mySecondIntValue + StringValue +myThirdIntValue + myFourthIntValue);   //? this is result : 50100 <-- before calculated value AND after concatenation happens --> 150200 (initial calculation is not done because string literal is present at the start of the statement)
+         System.out.println("this is result: " + myIntValue + mySecondIntValue + StringValue +myThirdIntValue + myFourthIntValue);   //? this is result : 50100 <-- before calculated value AND after concatenation happens --> 150200 (initial calculation is not done because string literal is present at the start of the statement)
 
 
-        //?  Strings are immutable, Immutable means that you can't change a String after it's created as shown in below
-        String myString1 = "This is a String";
-        myString1 = "This is a new String"; //! why it is not an error? Because we are not changing the value of the String, we are creating a new String and assigning it to the variable myString1.
+// Strings are immutable. Immutable means that you can't change a String object after it's created, as shown below
+        String myString1 = "This is a String"; // Creates a String object
+        myString1 = "This is a new String"; // This creates a NEW String object and assigns it to myString1. The original String object becomes eligible for garbage collection since no variable references it anymore.
         System.out.println(myString1);
-        //! now if we try to change the value of the String, it will give an error.
-        // myString1[0] = 'H'; //! Error: java: array required, but java.lang.String found
-        //todo  Hence we can't change the value of the String.
-        //todo  But we can change the value of the String using the + operator, as it creates a new String and assigns it to the variable.
-        //todo  We can also use String builder class to change the value of the String.
+        // If we try to change the characters within the String object directly, it will give an error.
+        // myString1[0] = 'H'; // Error: java: array required, but java.lang.String found
+        // Therefore, we cannot modify the content of a String object once it's created - this proves Strings are IMMUTABLE.
+        // When we reassign the variable, we're not changing the original String object; we're creating a completely new one.
+        // The variable can point to different String objects, but each individual String object cannot be modified.
+        // We can use StringBuilder class to avoid creating multiple String objects when we need to modify string content frequently.
 
 
         //! Difference between 1st and 2nd : In the 1st, we are changing the value of the variable myString, but in the 2nd, we are just printing the value of the variable myString2.

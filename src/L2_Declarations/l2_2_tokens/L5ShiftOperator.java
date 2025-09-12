@@ -4,6 +4,9 @@ public class L5ShiftOperator {
     public static void main(String[] args) {
 
         //*    Shift Operators: Shift operators are used to shifts all bits towards left or right by a certain number of specified bits.
+//        todo in most significance bit - 0 for positive number and 1 for negative number.i
+//          if a number is positive we add 0 and if a number is negative we add 1 in most significant side, so as to fill the remaining spaces with 4-sets while shifting.
+
 
         //? 1. Signed Left Shift Operator: shifts all bits towards left by a certain number of specified bits.it is equivalent to multiplying the number by 2^n.
         //?                         Syntax: number << n (where n is the number of bits to be shifted) and  number << n = number * 2^n

@@ -47,7 +47,7 @@ public class L3Operators {
 
 
         //?  2.Bitwise Operators: used to perform bit operations.
-        int c = 5, d = 7; // 5 = 0101, 7 = 0111
+        int c = 5, d = 7, e1 = 6; // 5 = 0101, 7 = 0111
         System.out.println("c AND d = " + (c & d)); //   0101
                                                     // & 0111  (same as 1 1 = 1,(all remaining once always gives 0) 0 0 = 0, 1 0 = 0, 0 1 = 0)
                                                    //    ----
@@ -69,7 +69,7 @@ public class L3Operators {
         //?     a) Shift Operators or Bitwise Shift Operators
         System.out.println("Signed Left Shift or Left shift : " + (c << 1)); // 0101 << 1 = 1010 --> 10
         System.out.println("Signed Right Shift or Right shift : " + (c >> 1)); // 0101 >> 1 = 0010 --> 2
-        System.out.println("Unsigned Right shift or Zero fill right shift : " + (c >>> 1)); //? 0101 >>> 1 = 0010 --> 2 (in positive numbers both signed and unsigned right shift gives the same result)
+        System.out.println("Unsigned Right shift or Zero fill right shift : " + (e1 >>> 1)); //? 0101 >>> 1 = 0010 --> 2 (in positive numbers both signed and unsigned right shift gives the same result)
 
 
         //?  3.Relational Operators or Comparison Operators: used to compare two values.

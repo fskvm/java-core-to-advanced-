@@ -33,4 +33,6 @@ public class Pattern7 {
              System.out.println();
          }
          }
-}
+
+
+    }

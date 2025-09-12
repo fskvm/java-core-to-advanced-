@@ -1,27 +1,24 @@
 package L2_Declarations.l2_2_tokens;
 
-//! Tokens : Tokens are the smallest elements of a program that are meaningful to the compiler.
-//!  Types of tokens (trick - SSICCOK ) : 1) Keywords 2) Identifiers 3) Special Symbol 4) Separators  5) Comments 6) Literals or Constant 7) Operators
-//!  1 to 4 are theorectical written in note.
+//! Tokens: Tokens are the smallest elements of a program that are meaningful to the compiler.
+//! Types of tokens (trick - SSICCOK): 1) Keywords 2) Identifiers 3) Special Symbol 4) Separators  5) Comments 6) Literals or Constant 7) Operators
+//!  1 to 4 are theoretically written in note.
 
-// Comment : Comments are non-executable parts of code that are used to provide explanation of code or temporarily disable the code during development.
+// Comment: Comments are non-executable parts of code that are used to provide explanation of code or temporarily disable the code during development.
 
-// Type of comments 1) Single line comment as shown in this line (syntax : // comment here)
+// Type of comments 1) Single line comment as shown in this line (syntax: // comment here)
 
-
-/* 2) Multi line comment as shown in this  multiple lines (syntax : /* comment here * /)
+/* 2) Multi line comment as shown in these multiple lines (syntax: /* comment here * /)
                   india
                         is
                            great
-                                 really !
+                                 really!
 
-   3) Documentation comment as shown below this (syntax : /** comment here * /)
+   3) Documentation comment as shown below this (syntax: /** comment here * /)
  */
-
-
 /**
- * 3) Documentation comment :
- * This class Showing Documentation comment representing simple calculator that can perform basic arithmetic operations.
+ * 3) Documentation comment:
+ * This class Showing Documentation comment representing a simple calculator that can perform basic arithmetic operations.
  * <p>
  * The Calculator class provides methods to add, subtract, multiply, and divide two numbers.
  * </p>
@@ -61,7 +58,7 @@ public class L1Comments {
      * @param a the first integer
      * @param b the second integer
      * @return the product of a and b
-     * @deprecated This API should no longer be used.(But actually it is just used here that how it looks on web)
+     * @deprecated This API should no longer be used. (But actually it is just used here that how it looks on web)
      */
     public int multiply(int a, int b) {
         return a * b;

@@ -3,10 +3,10 @@ package L2_Declarations.l2_2_tokens;
 public class L7CastOperator {
     public static void main(String[] args) {
 
-        //* Type casting operator : is used to convert a value of one data type to another.
+        //* Type casting operator: It is used to convert a value of one data type to another.
         //* Type casting is of two types:
 
-        //? 1. Widening casting or Down Casting or Implicit Type Casting : The Lower data type is transformed into a higher one by a process known as widening type casting.
+        //? 1. Widening casting or Up-Casting or Implicit Type Casting: The Lower data type is transformed into a higher one by a process known as widening type casting.
         //?                                                                It occurs automatically. Since there is no chance of data loss, it is secure.
         //?                                                                Widening Type casting occurs when:
         //?                                                                1.The target type must be larger than the source type.
@@ -24,7 +24,7 @@ public class L7CastOperator {
         System.out.println("Double :" + d);
 
 
-        //? 2. Narrowing casting or Up Casting or Explicit Type Casting  : The process of downsizing a bigger data type into a smaller one is known as narrowing type casting.
+        //? 2. Narrowing casting or Down-Casting or Explicit Type Casting: The process of downsizing a bigger data type into a smaller one is known as narrowing type casting.
         // ?                                                               It doesn’t just happen by itself. If we don’t explicitly do that, a compile-time error will occur.
         // ?                                                               Narrowing type casting is unsafe because data loss might happen due to the lower data type have Smaller range as compared to Bigger data type.
         double a = 100.245;

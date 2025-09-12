@@ -44,8 +44,7 @@ public class L4SwitchStatements {
 
         switch(marks) {
 
-            case 10:
-            case 9:
+            case 10, 9:
                 System.out.println("A+ Grade");
                 break;
             case 8:
@@ -62,6 +61,7 @@ public class L4SwitchStatements {
                 break;
             case 4:
                 System.out.println("E Grade");
+                break;
             case 3, 2, 1, 0:
                 System.out.println("Fail");
                 break;
