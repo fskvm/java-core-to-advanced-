@@ -1,6 +1,6 @@
-package L0_Rough_Codes;
+package L4_MethodsRelatedConcepts;
 
-public class MethodChallenge {
+public class L2MethodChallenge {
     public static void main(String[] args) {
 
         int highScorePosition = calculateHighScorePosition(1500);
