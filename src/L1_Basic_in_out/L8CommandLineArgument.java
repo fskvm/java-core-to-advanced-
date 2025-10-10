@@ -1,6 +1,6 @@
 package L1_Basic_in_out;
 
-public class L7CommandLineArgument {
+public class L8CommandLineArgument {
         public static void main(String[] args){
 
             //    Example of a command-line argument that prints all the values passed as arguments.The arguments are of a string type by default.

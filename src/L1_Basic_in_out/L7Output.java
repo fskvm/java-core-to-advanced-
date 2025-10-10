@@ -5,7 +5,7 @@ package L1_Basic_in_out;
 //! 2. System.out.println() - prints the output and moves to the next line
 //! 3. System.out.printf() - prints the output and allows multiple formatting options
 
-public class L6Output {
+public class L7Output {
     public static void main(String[] args) {
 
         long x = 25;

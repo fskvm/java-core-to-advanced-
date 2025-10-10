@@ -1,6 +1,6 @@
 package L1_Basic_in_out;
 
-public class L8CommandOtherThanSring {
+public class L9CommandOtherThanSring {
     //* Command Line Arguments: Other than string type example such as integer, float, double, etc. while passing arguments to a program we use either inside quotes or without quotes.
     public static void main(String[] args) {
         if(args.length < 3) {
